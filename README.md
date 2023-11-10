@@ -1,11 +1,11 @@
 # How Contentious Terms About People and Cultures are Used in Linked Open Data
 ## The repository of the research paper
 
-The online Appendix is available at 
+The online Appendix is available at [https://mnn-001-p.github.io/LODlit/](https://mnn-001-p.github.io/LODlit/)
 
 ### Data
 
-* We reuse the previously developed [knowledge graph of contentious terminology][paper](https://doi.org/10.1007/978-3-031-33455-9_30);
+* We reuse the previously developed [knowledge graph of contentious terminology](https://doi.org/10.1007/978-3-031-33455-9_30);
 * From the knowledge graph, we extract culturally sensitive terms to inspect them in LOD-datasets; the process is in the notebook [getting_query_terms.ipynb](getting_query_terms.ipynb), the resulting file is [query_terms.json](query_terms.json); there are 75 EN and 82 NL canonical forms of terms, which are linked to their inflected forms (for example, "aboriginal" and "aboriginals"); with both canonical and inflected forms, there are 154 EN and 242 NL terms;
 * We query terms in four LOD datasets:
   * Wikidata (EN and NL);
@@ -25,12 +25,6 @@ The online Appendix is available at
   #### Set 2: all retrieved literals
   #### Set 3: disambiguated literals
   * [samples](samples) contains (1) samples for annotations by dataset and language, (2) background information for each term presented to anotators, (3) annotated samples with the prefix "ann_" and IDs of annotators (1 and 3); the notebook [samples.ipynb](samples.ipynb) generates 6 csv files with samples and calculates inter-annotator agreement for each annotated sample; the mean of these agreement scores (0.8) is reported in the section 4.2; 
-
-
-### Markers of contentiousness
-
-  #### Explicit markers
-  #### Implicit markers
 
 ### LODlit package
 
